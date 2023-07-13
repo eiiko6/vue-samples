@@ -5,9 +5,9 @@
         <li class="pfp"><a href="#"><img src="./assets/Customer.png" alt="Pfp"></a></li>
         <div class="separator"></div>
         <li><router-link class="lk" to="/LyphDraw-portfolio/"><img src="./assets/icons8_home_1.ico" alt="Home"></router-link></li>
-        <li class="b"><router-link class="lk" to="/LyphDraw-portfolio/Artworks"><img src="./assets/icons8_large_icons.ico" alt="Artworks"></router-link></li>
-        <li class="b"><router-link class="lk" to="/LyphDraw-portfolio/Links"><img src="./assets/icons8_linking_1.ico" alt="Links"></router-link></li>
-        <li class="b"><router-link class="lk" to="/LyphDraw-portfolio/Comissions"><img src="./assets/icons8_categorize_5.ico" alt="Misc"></router-link></li>
+        <li class="b"><router-link class="lk" to=""><img src="./assets/icons8_large_icons.ico" alt="Artworks"></router-link></li>
+        <li class="b"><router-link class="lk" to=""><img src="./assets/icons8_linking_1.ico" alt="Links"></router-link></li>
+        <li class="b"><router-link class="lk" to=""><img src="./assets/icons8_categorize_5.ico" alt="Misc"></router-link></li>
       </ul>
     </nav>
 </div>
@@ -118,14 +118,15 @@
     }
     
     .navbar nav li {
-      margin: 0;
+      margin: 15px;
     }
     
     .separator {
       width: 3px;
       height: 30px;
       border-radius: 2px;
-      margin: 10px;
+      margin-left: 5px;
+      margin-right: 20px;
     }
   }
 
